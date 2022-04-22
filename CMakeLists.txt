@@ -25,7 +25,7 @@ if(CMakePythonDistributions_SUPERBUILD)
 
   #-----------------------------------------------------------------------------
   # Options
-  set(default ON)
+  set(default OFF)
   if(WIN32 OR APPLE)
     set(default OFF)
   endif()
