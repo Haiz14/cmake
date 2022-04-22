@@ -29,10 +29,11 @@ def parse_requirements(filename):
 
 test_requirements = parse_requirements('requirements-test.txt')
 
+#version=versioneer.get_version(),
+
 setup(
     name='cmake',
-
-    version=versioneer.get_version(),
+    version = '3.22.4'
     cmdclass=versioneer.get_cmdclass(),
 
     author='Jean-Christophe Fillion-Robin',
